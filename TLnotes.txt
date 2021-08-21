@@ -1,0 +1,25 @@
+1) Wishlist: just add a Wishlist field in user model .. and create a post api to update the wishlist with 
+product id that got liked by the user.
+
+// Doubt ?History?
+2) History: It should a seperate model. then later we can populate it with other models.[Parent referencing]
+Histroy for users => changing password etc..
+History for products => changing product price..
+
+3) CartItems: Add a field in users model and just add the product id to the cart items field.
+or 
+CartItems: Add a new model with quantity,etc... an do child referencing to users model
+
+4) DeliveryPage: Seperate model with status[packed,processing,inStation,readyToDelivery] populate 
+with each users model.
+
+// Doubt ????
+5) Admin verification
+
+6) Add seperate ROLES [buyer,admin,seller] ..
+.. and restrict them to particular routes.
+
+7) product api to say which colour did user choose ..
+.. querying the data.
+
+8) My orders page
